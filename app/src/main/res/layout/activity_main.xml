@@ -25,7 +25,7 @@
         android:padding="24dp"
         android:text="Start Your Fitness Journey Now!"
         android:textColor="@color/textColor"
-        tools:layout_editor_absoluteX="118dp"
-        tools:layout_editor_absoluteY="747dp" />
+        tools:layout_editor_absoluteX="81dp"
+        tools:layout_editor_absoluteY="576dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

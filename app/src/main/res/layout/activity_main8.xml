@@ -9,99 +9,139 @@
     tools:context=".MainActivity8">
 
     <ImageView
+        android:id="@+id/imageView"
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:contentDescription="App Logo"
-        android:src="@drawable/maxfitlogo" />
+        android:src="@drawable/maxfitlogo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
 
     <ImageView
+        android:id="@+id/imageView2"
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:contentDescription="App Logo"
         android:src="@drawable/userprofile"
-        tools:layout_editor_absoluteX="333dp"
-        tools:layout_editor_absoluteY="0dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
+        android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Here is your workout for XX-XX-XX "
+        android:layout_marginTop="192dp"
+        android:text="Here is your workout for XX-XX-XX"
+        android:textAlignment="center"
         android:textColor="@color/textColor"
-        android:textSize="28dp"
-        tools:layout_editor_absoluteX="27dp"
-        tools:layout_editor_absoluteY="168dp" />
+        android:textSize="28sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
 
     <TextView
+        android:id="@+id/textView3"
         android:layout_width="486dp"
         android:layout_height="124dp"
+        android:layout_marginTop="832dp"
         android:background="@color/white"
-        android:text="So each week, where for each life you do a percentage of
-your current max, Week 1: 50% Week 2: 60%
-Week 3: 70% Week 4: 80%. Every lift you will alternate
-between upper and lower body exercises You will then
-do a 1 rep max for Bench, Squat, and Deadlift.
-Repeat this cycle each month and you are guaranteed to
- meet your goals!!!!"
+        android:padding="16dp"
+        android:text=""
         android:textColor="@color/white"
-        tools:layout_editor_absoluteX="-3dp"
-        tools:layout_editor_absoluteY="850dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintMarginTop="850dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
+        android:id="@+id/imageView3"
         android:layout_width="121.5dp"
         android:layout_height="124dp"
+        android:layout_marginStart="216dp"
+        android:layout_marginTop="512dp"
         android:contentDescription="Goals Page Icon"
         android:src="@drawable/goals"
-        tools:layout_editor_absoluteX="362dp"
-        tools:layout_editor_absoluteY="850dp" />
+        app:layout_constraintMarginTop="16dp"
+        app:layout_constraintStart_toEndOf="@id/PrevEx1"
+        app:layout_constraintTop_toBottomOf="@id/PrevEx1" />
 
     <ImageView
+        android:id="@+id/recentWorkoutIcon"
         android:layout_width="121.5dp"
         android:layout_height="124dp"
+        android:layout_marginStart="4dp"
         android:contentDescription="Recent Workout Page Icon"
         android:src="@drawable/recenticon"
-        tools:layout_editor_absoluteX="117dp"
-        tools:layout_editor_absoluteY="850dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintMarginTop="832dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
 
     <ImageView
+        android:id="@+id/addWorkoutIcon"
         android:layout_width="121.5dp"
         android:layout_height="124dp"
         android:contentDescription="Add Workout Page Icon"
         android:src="@drawable/addicon"
-        tools:layout_editor_absoluteX="239dp"
-        tools:layout_editor_absoluteY="850dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintMarginTop="832dp"
+        app:layout_constraintStart_toEndOf="@id/recentWorkoutIcon"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
 
     <ImageView
+        android:id="@+id/progressPageIcon"
         android:layout_width="121.5dp"
         android:layout_height="124dp"
+        android:layout_marginStart="8dp"
         android:contentDescription="Progress Page Icon"
         android:src="@drawable/progresschart"
-        tools:layout_editor_absoluteX="-2dp"
-        tools:layout_editor_absoluteY="850dp" />
-
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintMarginTop="832dp"
+        app:layout_constraintStart_toEndOf="@id/addWorkoutIcon"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
 
     <EditText
         android:id="@+id/PrevEx1Display"
         android:layout_width="288dp"
+        android:hint="Previous Workout"
         android:layout_height="62dp"
+        android:layout_marginStart="156dp"
+        android:layout_marginTop="248dp"
         android:background="@color/black"
         android:inputType="text"
         android:padding="16dp"
         android:textColor="@color/textColor"
         android:textSize="16sp"
-        tools:layout_editor_absoluteX="165dp"
-        tools:layout_editor_absoluteY="249dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/PrevEx2Display"
         android:layout_width="288dp"
         android:layout_height="62dp"
+        android:layout_marginStart="164dp"
+        android:layout_marginTop="336dp"
         android:background="@color/black"
         android:inputType="text"
         android:padding="16dp"
         android:textColor="@color/textColor"
         android:textSize="16sp"
-        tools:layout_editor_absoluteX="165dp"
-        tools:layout_editor_absoluteY="348dp" />
+        android:hint="Previous Workout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
 
     <EditText
         android:id="@+id/PrevEx3Display"
@@ -110,96 +150,133 @@ Repeat this cycle each month and you are guaranteed to
         android:background="@color/black"
         android:inputType="text"
         android:padding="16dp"
+        android:hint="previous workout"
         android:textColor="@color/textColor"
         android:textSize="16sp"
-        tools:layout_editor_absoluteX="165dp"
-        tools:layout_editor_absoluteY="455dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontalBias="0.43"
+        app:layout_constraintHorizontal_bias="0.836"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVerticalBias="0.5"
+        app:layout_constraintVertical_bias="0.505" />
+
 
     <EditText
-        android:id="@+id/PrevEx4Display"
         android:layout_width="288dp"
         android:layout_height="62dp"
+        android:layout_marginStart="164dp"
+        android:layout_marginTop="544dp"
         android:background="@color/black"
         android:inputType="text"
         android:padding="16dp"
+        android:hint="previous workout"
         android:textColor="@color/textColor"
         android:textSize="16sp"
-        tools:layout_editor_absoluteX="166dp"
-        tools:layout_editor_absoluteY="554dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVerticalBias="0.7" />
+
 
     <EditText
         android:id="@+id/PrevCardioDisplay"
         android:layout_width="288dp"
+        android:hint="previous workout"
         android:layout_height="62dp"
+        android:layout_marginStart="164dp"
+        android:layout_marginTop="660dp"
         android:background="@color/black"
         android:inputType="text"
         android:padding="16dp"
         android:textColor="@color/textColor"
         android:textSize="16sp"
-        tools:layout_editor_absoluteX="166dp"
-        tools:layout_editor_absoluteY="660dp" />
-
+        app:layout_constraintStart_toEnd="@+"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
 
     <TextView
         android:id="@+id/PrevEx1"
         android:layout_width="143dp"
         android:layout_height="71dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="248dp"
         android:text="Exercise 1"
         android:textAlignment="center"
         android:textColor="@color/textColor"
-        android:textSize="30dp"
-        tools:layout_editor_absoluteX="7dp"
-        tools:layout_editor_absoluteY="250dp" />
+        android:textSize="30sp"
+        app:layout_constraintMarginTop="250dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
 
     <TextView
         android:id="@+id/PrevEx2"
         android:layout_width="143dp"
         android:layout_height="71dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="336dp"
         android:text="Exercise 2"
         android:textAlignment="center"
         android:textColor="@color/textColor"
         android:textSize="30dp"
-        tools:layout_editor_absoluteX="7dp"
-        tools:layout_editor_absoluteY="339dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
 
     <TextView
         android:id="@+id/PrevEx3"
-        android:layout_width="143dp"
-        android:layout_height="71dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="23dp"
         android:text="Exercise 3"
         android:textAlignment="center"
         android:textColor="@color/textColor"
         android:textSize="30dp"
-        tools:layout_editor_absoluteX="7dp"
-        tools:layout_editor_absoluteY="451dp" />
+        app:layout_constraintBottom_toTopOf="@+id/PrevEx4"
+        app:layout_constraintEnd_toStartOf="@+id/PrevEx3Display"
+        app:layout_constraintMarginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/PrevEx2" />
 
     <TextView
         android:id="@+id/PrevEx4"
         android:layout_width="143dp"
         android:layout_height="71dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="552dp"
         android:text="Exercise 4"
         android:textAlignment="center"
         android:textColor="@color/textColor"
         android:textSize="30dp"
-        tools:layout_editor_absoluteX="7dp"
-        tools:layout_editor_absoluteY="545dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/PrevCardio"
         android:layout_width="143dp"
         android:layout_height="71dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="660dp"
         android:text="Cardio"
         android:textAlignment="center"
         android:textColor="@color/textColor"
         android:textSize="38dp"
-        tools:layout_editor_absoluteX="7dp"
-        tools:layout_editor_absoluteY="660dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
+        android:id="@+id/imageView4"
         android:layout_width="80dp"
         android:layout_height="80dp"
+        android:layout_marginStart="204dp"
+        android:layout_marginTop="728dp"
         android:src="@drawable/homeicon"
-        tools:layout_editor_absoluteX="201dp"
-        tools:layout_editor_absoluteY="745dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
