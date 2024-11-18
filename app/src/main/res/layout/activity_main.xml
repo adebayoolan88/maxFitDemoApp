@@ -15,17 +15,26 @@
         android:contentDescription="App Logo"
         android:src="@drawable/maxfitlogo"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="0dp" />
+        tools:layout_editor_absoluteY="0dp"
+        app:layout_constraintHorizontalBias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVerticalBias="0.2"
+        />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="576dp"
         android:background="@color/black"
         android:padding="24dp"
         android:text="Start Your Fitness Journey Now!"
         android:textColor="@color/textColor"
-        tools:layout_editor_absoluteX="81dp"
-        tools:layout_editor_absoluteY="576dp" />
+        app:layout_constraintHorizontalBias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVerticalBias="0.2" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
