@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    tools:context=".MainActivity9">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:contentDescription="App Logo"
+        android:src="@drawable/maxfitlogo" />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:contentDescription="App Logo"
+        android:src="@drawable/userprofile"
+        tools:layout_editor_absoluteX="333dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="What work out would you like to do today?"
+        android:textAlignment="center"
+        android:textColor="@color/textColor"
+        android:textSize="28dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="198dp" />
+    <TextView
+        android:layout_width="486dp"
+        android:layout_height="124dp"
+        android:background="@color/white"
+        android:text="So each week, where for each life you do a percentage of
+your current max, Week 1: 50% Week 2: 60%
+Week 3: 70% Week 4: 80%. Every lift you will alternate
+between upper and lower body exercises You will then
+do a 1 rep max for Bench, Squat, and Deadlift.
+Repeat this cycle each month and you are guaranteed to
+ meet your goals!!!!"
+        android:textColor="@color/white"
+        tools:layout_editor_absoluteX="-3dp"
+        tools:layout_editor_absoluteY="850dp" />
+
+    <ImageView
+        android:layout_width="121.5dp"
+        android:layout_height="124dp"
+        android:contentDescription="Goals Page Icon"
+        android:src="@drawable/goals"
+        tools:layout_editor_absoluteX="362dp"
+        tools:layout_editor_absoluteY="850dp" />
+
+    <ImageView
+        android:layout_width="121.5dp"
+        android:layout_height="124dp"
+        android:contentDescription="Recent Workout Page Icon"
+        android:src="@drawable/recenticon"
+        tools:layout_editor_absoluteX="117dp"
+        tools:layout_editor_absoluteY="850dp" />
+
+    <ImageView
+        android:layout_width="121.5dp"
+        android:layout_height="124dp"
+        android:contentDescription="Add Workout Page Icon"
+        android:src="@drawable/addicon"
+        tools:layout_editor_absoluteX="239dp"
+        tools:layout_editor_absoluteY="850dp" />
+
+    <ImageView
+        android:layout_width="121.5dp"
+        android:layout_height="124dp"
+        android:contentDescription="Progress Page Icon"
+        android:src="@drawable/progresschart"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="850dp" />
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/homeicon"
+        tools:layout_editor_absoluteX="201dp"
+        tools:layout_editor_absoluteY="745dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:paddingVertical="35dp"
+        android:text="Upper Body"
+        android:textColor="@color/textColor"
+        android:textSize="85dp"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="309dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:paddingVertical="35dp"
+        android:text="Lower Body"
+        android:textColor="@color/textColor"
+        android:textSize="85dp"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="524dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

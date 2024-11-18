@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    tools:context=".MainActivity6">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:contentDescription="App Logo"
+        android:src="@drawable/maxfitlogo" />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:contentDescription="App Logo"
+        android:src="@drawable/userprofile"
+        tools:layout_editor_absoluteX="333dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Here is your ****** Workout for Today,                   3-4 sets of 8-10 reps for each exercise"
+        android:textColor="@color/textColor"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="191dp" />
+
+    <TextView
+        android:layout_width="288dp"
+        android:layout_height="61dp"
+        android:background="@color/black"
+        android:paddingHorizontal="150dp"
+        android:paddingVertical="10dp"
+        android:text="10-8-24"
+        android:textColor="@color/textColor"
+        android:textSize="35dp"
+        tools:layout_editor_absoluteX="164dp"
+        tools:layout_editor_absoluteY="278dp" />
+
+    <TextView
+        android:layout_width="288dp"
+        android:layout_height="61dp"
+        android:background="@color/black"
+        android:paddingHorizontal="150dp"
+        android:paddingVertical="10dp"
+        android:text="10-7-24"
+        android:textColor="@color/textColor"
+        android:textSize="35dp"
+        tools:layout_editor_absoluteX="164dp"
+        tools:layout_editor_absoluteY="368dp" />
+
+    <TextView
+        android:layout_width="288dp"
+        android:layout_height="61dp"
+        android:background="@color/black"
+        android:paddingHorizontal="150dp"
+        android:paddingVertical="10dp"
+        android:text="10-6-24"
+        android:textColor="@color/textColor"
+        android:textSize="35dp"
+        tools:layout_editor_absoluteX="164dp"
+        tools:layout_editor_absoluteY="456dp" />
+
+    <TextView
+        android:layout_width="288dp"
+        android:layout_height="61dp"
+        android:background="@color/black"
+        android:paddingHorizontal="150dp"
+        android:paddingVertical="10dp"
+        android:text="10-5-24"
+        android:textColor="@color/textColor"
+        android:textSize="35dp"
+        tools:layout_editor_absoluteX="164dp"
+        tools:layout_editor_absoluteY="522dp" />
+
+    <TextView
+        android:layout_width="288dp"
+        android:layout_height="61dp"
+        android:background="@color/black"
+        android:paddingHorizontal="150dp"
+        android:paddingVertical="10dp"
+        android:text="10-4-24"
+        android:textColor="@color/textColor"
+        android:textSize="35dp"
+        tools:layout_editor_absoluteX="164dp"
+        tools:layout_editor_absoluteY="618dp" />
+
+    <TextView
+        android:layout_width="486dp"
+        android:layout_height="124dp"
+        android:background="@color/white"
+        android:text="So each week, where for each life you do a percentage of
+your current max, Week 1: 50% Week 2: 60%
+Week 3: 70% Week 4: 80%. Every lift you will alternate
+between upper and lower body exercises You will then
+do a 1 rep max for Bench, Squat, and Deadlift.
+Repeat this cycle each month and you are guaranteed to
+ meet your goals!!!!"
+        android:textColor="@color/white"
+        tools:layout_editor_absoluteX="-3dp"
+        tools:layout_editor_absoluteY="850dp" />
+
+    <ImageView
+        android:layout_width="121.5dp"
+        android:layout_height="124dp"
+        android:contentDescription="Goals Page Icon"
+        android:src="@drawable/goals"
+        tools:layout_editor_absoluteX="362dp"
+        tools:layout_editor_absoluteY="850dp" />
+
+    <ImageView
+        android:layout_width="121.5dp"
+        android:layout_height="124dp"
+        android:contentDescription="Recent Workout Page Icon"
+        android:src="@drawable/recenticon"
+        tools:layout_editor_absoluteX="117dp"
+        tools:layout_editor_absoluteY="850dp" />
+
+    <ImageView
+        android:layout_width="121.5dp"
+        android:layout_height="124dp"
+        android:contentDescription="Add Workout Page Icon"
+        android:src="@drawable/addicon"
+        tools:layout_editor_absoluteX="239dp"
+        tools:layout_editor_absoluteY="850dp" />
+
+    <ImageView
+        android:layout_width="121.5dp"
+        android:layout_height="124dp"
+        android:contentDescription="Progress Page Icon"
+        android:src="@drawable/progresschart"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="850dp" />
+
+
+    <TextView
+        android:id="@+id/PrevEx1"
+        android:layout_width="143dp"
+        android:layout_height="71dp"
+        android:text="Exercise 1"
+        android:textAlignment="center"
+        android:textColor="@color/textColor"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="278dp" />
+
+    <TextView
+        android:id="@+id/PrevEx2"
+        android:layout_width="143dp"
+        android:layout_height="71dp"
+        android:text="Exercise 2"
+        android:textAlignment="center"
+        android:textColor="@color/textColor"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="368dp" />
+
+    <TextView
+        android:id="@+id/PrevEx3"
+        android:layout_width="143dp"
+        android:layout_height="71dp"
+        android:text="Exercise 3"
+        android:textAlignment="center"
+        android:textColor="@color/textColor"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="451dp" />
+
+    <TextView
+        android:id="@+id/PrevEx4"
+        android:layout_width="143dp"
+        android:layout_height="71dp"
+        android:text="Exercise 4"
+        android:textAlignment="center"
+        android:textColor="@color/textColor"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="522dp" />
+
+    <TextView
+        android:id="@+id/PrevCardio"
+        android:layout_width="143dp"
+        android:layout_height="71dp"
+        android:text="Cardio"
+        android:textAlignment="center"
+        android:textColor="@color/textColor"
+        android:textSize="38dp"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="618dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Would you like to add an exercise?"
+        android:textAlignment="center"
+        android:textColor="@color/textColor"
+        android:textSize="25dp"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="702dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:text="Yes"
+        android:textColor="@color/textColor"
+        android:textSize="40dp"
+        android:padding="15dp"
+        tools:layout_editor_absoluteX="120dp"
+        tools:layout_editor_absoluteY="757dp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:text="No"
+        android:textColor="@color/textColor"
+        android:padding="15dp"
+        android:textSize="40dp"
+        tools:layout_editor_absoluteX="282dp"
+        tools:layout_editor_absoluteY="757dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
