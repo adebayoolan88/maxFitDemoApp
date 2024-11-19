@@ -94,7 +94,7 @@
 
 
     <Button
-    android:id="@+id/submitButton"
+    android:id="@+id/UpdateGoalsSumbit"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:padding="36dp"
