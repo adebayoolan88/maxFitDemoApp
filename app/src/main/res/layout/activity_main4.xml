@@ -17,6 +17,7 @@
         android:src="@drawable/maxfitlogo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
+        android:clickable="false"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -25,6 +26,7 @@
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:contentDescription="User Profile Logo"
+        android:clickable="true"
         android:src="@drawable/userprofile"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -50,6 +52,7 @@
         android:layout_marginStart="48dp"
         android:layout_marginTop="288dp"
         android:contentDescription="CurrentWorkout"
+        android:clickable="true"
         android:src="@drawable/calendar"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -107,8 +110,8 @@
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        android:clickable="true"
         app:layout_constraintVertical_bias="1.0" />
-
 
     <ImageView
         android:layout_width="121.5dp"
@@ -119,6 +122,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        android:clickable="true"
         app:layout_constraintVertical_bias="1.0" />
 
     <ImageView
@@ -130,6 +134,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        android:clickable="true"
         app:layout_constraintVertical_bias="1.0" />
 
     <ImageView
@@ -139,6 +144,7 @@
         android:contentDescription="Progress Page Icon"
         android:src="@drawable/progresschart"
         app:layout_constraintBottom_toBottomOf="parent"
+        android:clickable="true"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0" />
