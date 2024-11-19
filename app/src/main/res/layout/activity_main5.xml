@@ -315,6 +315,7 @@
         app:layout_constraintTop_toTopOf="parent"
 />
     <ImageView
+        android:id="@+id/RecentWorkoutPage"
         android:layout_width="121.5dp"
         android:layout_height="124dp"
         android:layout_marginStart="116dp"
@@ -322,7 +323,7 @@
         android:contentDescription="Recent Workout Page Icon"
         android:src="@drawable/recenticon"
         app:layout_constraintStart_toStartOf="parent"
-
+        android:clickable="true"
         app:layout_constraintTop_toTopOf="parent"
 />
     <ImageView
