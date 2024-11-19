@@ -16,24 +16,19 @@
         android:contentDescription="App Logo"
         android:src="@drawable/maxfitlogo"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVerticalBias="0.1" />
-
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/userProfileImage"
         android:layout_width="150dp"
         android:layout_height="150dp"
+        android:layout_marginTop="4dp"
         android:contentDescription="App Logo"
         android:src="@drawable/userprofile"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVerticalBias="0.2" />
-
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/CurrentBench"
@@ -47,11 +42,9 @@
         android:padding="16dp"
         android:textColor="@color/textColor"
         android:textSize="16sp"
-        app:layout_constraintHorizontalBias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVerticalBias="0.2" />
-
+/>
     <EditText
         android:id="@+id/CurrentSquat"
         android:layout_width="138dp"
@@ -64,12 +57,10 @@
         android:padding="16dp"
         android:textColor="@color/textColor"
         android:textSize="16sp"
-        app:layout_constraintHorizontalBias="0.5"
         app:layout_constraintStart_toStartOf="parent"
 
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVerticalBias="0.2" />
-
+/>
     <EditText
         android:id="@+id/CurrentDeadlift"
         android:layout_width="138dp"
@@ -82,12 +73,10 @@
         android:padding="16dp"
         android:textColor="@color/textColor"
         android:textSize="16sp"
-        app:layout_constraintHorizontalBias="0.5"
         app:layout_constraintStart_toStartOf="parent"
 
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVerticalBias="0.2" />
-
+/>
     <EditText
         android:id="@+id/CurrentPullup"
         android:layout_width="138dp"
@@ -100,11 +89,9 @@
         android:padding="16dp"
         android:textColor="@color/textColor"
         android:textSize="16sp"
-        app:layout_constraintHorizontalBias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVerticalBias="0.2" />
-
+/>
     <EditText
         android:id="@+id/CurrentCardio"
         android:layout_width="138dp"
@@ -117,12 +104,10 @@
         android:padding="16dp"
         android:textColor="@color/textColor"
         android:textSize="16sp"
-        app:layout_constraintHorizontalBias="0.5"
         app:layout_constraintStart_toStartOf="parent"
 
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVerticalBias="0.2" />
-
+/>
 
     <EditText
         android:id="@+id/GoalCardio"
@@ -136,11 +121,9 @@
         android:padding="16dp"
         android:textColor="@color/textColor"
         android:textSize="16sp"
-        app:layout_constraintHorizontalBias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVerticalBias="0.2" />
-
+/>
     <TextView
         android:id="@+id/BenchLabel"
         android:layout_width="143dp"
@@ -151,12 +134,10 @@
         android:textAlignment="center"
         android:textColor="@color/textColor"
         android:textSize="38dp"
-        app:layout_constraintHorizontalBias="0.5"
         app:layout_constraintStart_toStartOf="parent"
 
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVerticalBias="0.2" />
-
+/>
     <TextView
         android:id="@+id/SquatLabel"
         android:layout_width="143dp"
@@ -167,11 +148,9 @@
         android:textAlignment="center"
         android:textColor="@color/textColor"
         android:textSize="38dp"
-        app:layout_constraintHorizontalBias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVerticalBias="0.2" />
-
+/>
     <TextView
         android:id="@+id/DeadliftLabel"
         android:layout_width="143dp"
@@ -181,12 +160,10 @@
         android:textAlignment="center"
         android:textColor="@color/textColor"
         android:textSize="38dp"
-        app:layout_constraintHorizontalBias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
 
-        app:layout_constraintVerticalBias="0.2" />
-
+/>
     <TextView
         android:id="@+id/PullupsLabel"
         android:layout_width="143dp"
@@ -196,12 +173,10 @@
         android:textAlignment="center"
         android:textColor="@color/textColor"
         android:textSize="38dp"
-        app:layout_constraintHorizontalBias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
 
-        app:layout_constraintVerticalBias="0.2" />
-
+/>
 
     <TextView
         android:id="@+id/GenderLabel"
@@ -213,12 +188,10 @@
         android:textAlignment="center"
         android:textColor="@color/textColor"
         android:textSize="38dp"
-        app:layout_constraintHorizontalBias="0.5"
         app:layout_constraintStart_toStartOf="parent"
 
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVerticalBias="0.2" />
-
+/>
     <EditText
         android:id="@+id/GoalBench"
         android:layout_width="138dp"
@@ -231,11 +204,9 @@
         android:padding="16dp"
         android:textColor="@color/textColor"
         android:textSize="16sp"
-        app:layout_constraintHorizontalBias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVerticalBias="0.2" />
-
+/>
     <EditText
         android:id="@+id/GoalSquat"
         android:layout_width="138dp"
@@ -248,12 +219,10 @@
         android:padding="16dp"
         android:textColor="@color/textColor"
         android:textSize="16sp"
-        app:layout_constraintHorizontalBias="0.5"
         app:layout_constraintStart_toStartOf="parent"
 
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVerticalBias="0.2" />
-
+/>
     <EditText
         android:id="@+id/GoalDeadlift"
         android:layout_width="138dp"
@@ -266,11 +235,9 @@
         android:padding="16dp"
         android:textColor="@color/textColor"
         android:textSize="16sp"
-        app:layout_constraintHorizontalBias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVerticalBias="0.2" />
-
+/>
     <EditText
         android:id="@+id/GoalPullUp"
         android:layout_width="138dp"
@@ -283,12 +250,10 @@
         android:padding="16dp"
         android:textColor="@color/textColor"
         android:textSize="16sp"
-        app:layout_constraintHorizontalBias="0.5"
         app:layout_constraintStart_toStartOf="parent"
 
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVerticalBias="0.2" />
-
+/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -297,11 +262,9 @@
         android:text="New Max"
         android:textColor="@color/textColor"
         android:textSize="29dp"
-        app:layout_constraintHorizontalBias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVerticalBias="0.2" />
-
+/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -310,12 +273,10 @@
         android:text="% (+/-)"
         android:textColor="@color/textColor"
         android:textSize="29dp"
-        app:layout_constraintHorizontalBias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintStart_toStartOf="parent"
 
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVerticalBias="0.2" />
-
+/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -327,30 +288,20 @@
         android:textColor="@color/textColor"
 
         android:textSize="21dp"
-        app:layout_constraintHorizontalBias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
 
-        app:layout_constraintVerticalBias="0.2" />
-
+/>
     <TextView
         android:layout_width="486dp"
         android:layout_height="124dp"
         android:layout_marginTop="848dp"
         android:background="@color/white"
-        android:text="So each week, where for each life you do a percentage of
-your current max, Week 1: 50% Week 2: 60%
-Week 3: 70% Week 4: 80%. Every lift you will alternate
-between upper and lower body exercises You will then
-do a 1 rep max for Bench, Squat, and Deadlift.
-Repeat this cycle each month and you are guaranteed to
- meet your goals!!!!"
+        android:text=""
         android:textColor="@color/white"
-        app:layout_constraintHorizontalBias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVerticalBias="0.2" />
-
+/>
     <ImageView
         android:layout_width="121.5dp"
         android:layout_height="124dp"
@@ -358,13 +309,11 @@ Repeat this cycle each month and you are guaranteed to
         android:layout_marginTop="848dp"
         android:contentDescription="Goals Page Icon"
         android:src="@drawable/goals"
-        app:layout_constraintHorizontalBias="0.5"
         app:layout_constraintStart_toStartOf="parent"
 
 
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVerticalBias="0.2" />
-
+/>
     <ImageView
         android:layout_width="121.5dp"
         android:layout_height="124dp"
@@ -372,12 +321,10 @@ Repeat this cycle each month and you are guaranteed to
         android:layout_marginTop="848dp"
         android:contentDescription="Recent Workout Page Icon"
         android:src="@drawable/recenticon"
-        app:layout_constraintHorizontalBias="0.5"
         app:layout_constraintStart_toStartOf="parent"
 
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVerticalBias="0.2" />
-
+/>
     <ImageView
         android:layout_width="121.5dp"
         android:layout_height="124dp"
@@ -385,21 +332,17 @@ Repeat this cycle each month and you are guaranteed to
         android:layout_marginTop="848dp"
         android:contentDescription="Add Workout Page Icon"
         android:src="@drawable/addicon"
-        app:layout_constraintHorizontalBias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVerticalBias="0.2" />
-
+/>
     <ImageView
         android:layout_width="121.5dp"
         android:layout_height="124dp"
         android:layout_marginTop="856dp"
         android:contentDescription="Progress Page Icon"
         android:src="@drawable/progresschart"
-        app:layout_constraintHorizontalBias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVerticalBias="0.2" />
-
+/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

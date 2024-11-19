@@ -51,9 +51,7 @@
         android:layout_marginTop="288dp"
         android:contentDescription="CurrentWorkout"
         android:src="@drawable/calendar"
-        app:layout_constraintStart_margin="50dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_margin="292dp"
         app:layout_constraintTop_toTopOf="parent" />
 
 
@@ -80,10 +78,9 @@
         android:textSize="21dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.575" />
+        />
 
 
     <TextView

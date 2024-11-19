@@ -42,7 +42,6 @@
         android:textColor="@color/textColor"
         android:textSize="28sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.483"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -51,16 +50,15 @@
         android:id="@+id/textView3"
         android:layout_width="486dp"
         android:layout_height="124dp"
-        android:layout_marginTop="832dp"
         android:background="@color/white"
         android:padding="16dp"
         android:text=""
         android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintMarginTop="850dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        tools:layout_editor_absoluteY="818dp"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView3"
@@ -70,7 +68,6 @@
         android:layout_marginTop="512dp"
         android:contentDescription="Goals Page Icon"
         android:src="@drawable/goals"
-        app:layout_constraintMarginTop="16dp"
         app:layout_constraintStart_toEndOf="@id/PrevEx1"
         app:layout_constraintTop_toBottomOf="@id/PrevEx1" />
 
@@ -78,11 +75,10 @@
         android:id="@+id/recentWorkoutIcon"
         android:layout_width="121.5dp"
         android:layout_height="124dp"
-        android:layout_marginStart="4dp"
+        android:layout_marginStart="12dp"
         android:contentDescription="Recent Workout Page Icon"
         android:src="@drawable/recenticon"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintMarginTop="832dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0" />
@@ -91,10 +87,10 @@
         android:id="@+id/addWorkoutIcon"
         android:layout_width="121.5dp"
         android:layout_height="124dp"
+        android:layout_marginStart="108dp"
         android:contentDescription="Add Workout Page Icon"
         android:src="@drawable/addicon"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintMarginTop="832dp"
         app:layout_constraintStart_toEndOf="@id/recentWorkoutIcon"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0" />
@@ -103,14 +99,13 @@
         android:id="@+id/progressPageIcon"
         android:layout_width="121.5dp"
         android:layout_height="124dp"
-        android:layout_marginStart="8dp"
         android:contentDescription="Progress Page Icon"
         android:src="@drawable/progresschart"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintMarginTop="832dp"
-        app:layout_constraintStart_toEndOf="@id/addWorkoutIcon"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="1.0"
+        tools:layout_editor_absoluteX="120dp"
+        tools:ignore="MissingConstraints" />
 
     <EditText
         android:id="@+id/PrevEx1Display"
@@ -148,20 +143,16 @@
         android:layout_width="288dp"
         android:layout_height="62dp"
         android:background="@color/black"
+        android:hint="previous workout"
         android:inputType="text"
         android:padding="16dp"
-        android:hint="previous workout"
         android:textColor="@color/textColor"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontalBias="0.43"
-        app:layout_constraintHorizontal_bias="0.836"
+        app:layout_constraintHorizontal_bias="0.913"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVerticalBias="0.5"
-        app:layout_constraintVertical_bias="0.505" />
-
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:layout_width="288dp"
@@ -176,8 +167,7 @@
         android:textSize="16sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVerticalBias="0.7" />
-
+/>
 
     <EditText
         android:id="@+id/PrevCardioDisplay"
@@ -191,25 +181,23 @@
         android:padding="16dp"
         android:textColor="@color/textColor"
         android:textSize="16sp"
-        app:layout_constraintStart_toEnd="@+"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         />
+
 
     <TextView
         android:id="@+id/PrevEx1"
         android:layout_width="143dp"
         android:layout_height="71dp"
-        android:layout_marginStart="4dp"
+        android:layout_marginStart="8dp"
         android:layout_marginTop="248dp"
         android:text="Exercise 1"
         android:textAlignment="center"
         android:textColor="@color/textColor"
         android:textSize="30sp"
-        app:layout_constraintMarginTop="250dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
 
     <TextView
         android:id="@+id/PrevEx2"
@@ -239,7 +227,6 @@
         android:textSize="30dp"
         app:layout_constraintBottom_toTopOf="@+id/PrevEx4"
         app:layout_constraintEnd_toStartOf="@+id/PrevEx3Display"
-        app:layout_constraintMarginTop="16dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/PrevEx2" />
 
@@ -248,7 +235,7 @@
         android:layout_width="143dp"
         android:layout_height="71dp"
         android:layout_marginStart="12dp"
-        android:layout_marginTop="552dp"
+        android:layout_marginTop="544dp"
         android:text="Exercise 4"
         android:textAlignment="center"
         android:textColor="@color/textColor"

@@ -13,10 +13,9 @@
         android:layout_height="150dp"
         android:contentDescription="App Logo"
         android:src="@drawable/maxfitlogo"
-        app:layout_constraintHorizontalBias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVerticalBias="0.2"
+
         />
 
     <EditText
@@ -31,10 +30,9 @@
         android:padding="16dp"
         android:textColor="@color/textColor"
         android:textSize="16sp"
-        app:layout_constraintHorizontalBias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVerticalBias="0.2" />
+       />
 
     <EditText
         android:id="@+id/CurrentSquat"
@@ -48,10 +46,10 @@
         android:padding="16dp"
         android:textColor="@color/textColor"
         android:textSize="16sp"
-        app:layout_constraintHorizontalBias="0.5"
+
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVerticalBias="0.2" />
+        />
 
     <EditText
         android:id="@+id/CurrentDeadlift"
@@ -65,10 +63,9 @@
         android:padding="16dp"
         android:textColor="@color/textColor"
         android:textSize="16sp"
-        app:layout_constraintHorizontalBias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVerticalBias="0.2" />
+        />
 
     <EditText
         android:id="@+id/CurrentPullup"
@@ -82,11 +79,9 @@
         android:padding="16dp"
         android:textColor="@color/textColor"
         android:textSize="16sp"
-        app:layout_constraintHorizontalBias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVerticalBias="0.2" />
-
+/>
     <EditText
         android:id="@+id/CurrentCardio"
         android:layout_width="138dp"
@@ -99,10 +94,8 @@
         android:padding="16dp"
         android:textColor="@color/textColor"
         android:textSize="16sp"
-        app:layout_constraintHorizontalBias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVerticalBias="0.2" />
+        app:layout_constraintTop_toTopOf="parent"/>
 
     <EditText
         android:id="@+id/GoalCardio"
@@ -116,11 +109,10 @@
         android:padding="16dp"
         android:textColor="@color/textColor"
         android:textSize="16sp"
-        app:layout_constraintHorizontalBias="0.5"
         app:layout_constraintStart_toStartOf="parent"
 
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVerticalBias="0.2" />
+        />
 
     <Button
         android:id="@+id/submitButton"
@@ -133,10 +125,8 @@
         android:text="Submit"
         android:textColor="@color/textColor"
         android:textSize="16sp"
-        app:layout_constraintHorizontalBias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVerticalBias="0.2" />
+        app:layout_constraintTop_toTopOf="parent"/>
 
     <TextView
         android:id="@+id/BenchLabel"
@@ -148,11 +138,9 @@
         android:textAlignment="center"
         android:textColor="@color/textColor"
         android:textSize="38dp"
-        app:layout_constraintHorizontalBias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVerticalBias="0.2" />
-
+/>
     <TextView
         android:id="@+id/SquatLabel"
         android:layout_width="143dp"
@@ -163,11 +151,9 @@
         android:textAlignment="center"
         android:textColor="@color/textColor"
         android:textSize="38dp"
-        app:layout_constraintHorizontalBias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVerticalBias="0.2" />
-
+/>
     <TextView
         android:id="@+id/DeadliftLabel"
         android:layout_width="143dp"
@@ -178,11 +164,9 @@
         android:textAlignment="center"
         android:textColor="@color/textColor"
         android:textSize="38dp"
-        app:layout_constraintHorizontalBias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVerticalBias="0.2" />
-
+/>
     <TextView
         android:id="@+id/PullupsLabel"
         android:layout_width="143dp"
@@ -193,11 +177,9 @@
         android:textAlignment="center"
         android:textColor="@color/textColor"
         android:textSize="38dp"
-        app:layout_constraintHorizontalBias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVerticalBias="0.2" />
-
+/>
     <TextView
         android:id="@+id/GenderLabel"
         android:layout_width="143dp"
@@ -208,11 +190,9 @@
         android:textAlignment="center"
         android:textColor="@color/textColor"
         android:textSize="38dp"
-        app:layout_constraintHorizontalBias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVerticalBias="0.2" />
-
+/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -221,11 +201,9 @@
         android:text="Strength Goals"
         android:textColor="@color/textColor"
         android:textSize="29dp"
-        app:layout_constraintHorizontalBias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVerticalBias="0.2" />
-
+/>
     <EditText
         android:id="@+id/GoalBench"
         android:layout_width="138dp"
@@ -238,12 +216,10 @@
         android:padding="16dp"
         android:textColor="@color/textColor"
         android:textSize="16sp"
-        app:layout_constraintHorizontalBias="0.5"
         app:layout_constraintStart_toStartOf="parent"
 
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVerticalBias="0.2" />
-
+/>
     <EditText
         android:id="@+id/GoalSquat"
         android:layout_width="138dp"
@@ -256,10 +232,9 @@
         android:padding="16dp"
         android:textColor="@color/textColor"
         android:textSize="16sp"
-        app:layout_constraintHorizontalBias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVerticalBias="0.2" />
+        />
 
     <EditText
         android:id="@+id/GoalDeadlift"
@@ -273,10 +248,9 @@
         android:padding="16dp"
         android:textColor="@color/textColor"
         android:textSize="16sp"
-        app:layout_constraintHorizontalBias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVerticalBias="0.2" />
+        />
 
     <EditText
         android:id="@+id/GoalPullUp"
@@ -290,10 +264,9 @@
         android:padding="16dp"
         android:textColor="@color/textColor"
         android:textSize="16sp"
-        app:layout_constraintHorizontalBias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVerticalBias="0.2" />
+        />
 
     <TextView
         android:layout_width="wrap_content"
@@ -303,11 +276,9 @@
         android:text="Current Max"
         android:textColor="@color/textColor"
         android:textSize="29dp"
-        app:layout_constraintHorizontalBias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVerticalBias="0.2" />
-
+/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -316,8 +287,7 @@
         android:text="Goal Max"
         android:textColor="@color/textColor"
         android:textSize="29dp"
-        app:layout_constraintHorizontalBias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVerticalBias="0.2" />
+        />
 </androidx.constraintlayout.widget.ConstraintLayout>
