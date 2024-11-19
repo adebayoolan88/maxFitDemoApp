@@ -78,6 +78,8 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         android:layout_marginTop="850dp"
+        android:clickable="true"
+        android:id="@+id/AddWorkoutXML9"
         android:layout_marginStart="239dp"/>
 
     <ImageView
@@ -89,14 +91,18 @@
         app:layout_constraintStart_toStartOf="parent"
         android:layout_marginTop="850dp"
         android:layout_marginStart="-2dp"/>
+
     <ImageView
+        android:id="@+id/HomePageNavXML9"
         android:layout_width="80dp"
         android:layout_height="80dp"
+        android:layout_marginStart="428dp"
+        android:layout_marginTop="736dp"
+        android:clickable="true"
         android:src="@drawable/homeicon"
-        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        android:layout_marginTop="745dp"
-        android:layout_marginStart="201dp"/>
+        android:contentDescription="Home Page Navigation"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:layout_width="wrap_content"

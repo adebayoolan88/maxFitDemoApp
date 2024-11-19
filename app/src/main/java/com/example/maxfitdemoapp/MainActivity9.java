@@ -1,6 +1,8 @@
 package com.example.maxfitdemoapp;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.widget.ImageView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -15,10 +17,23 @@ public class MainActivity9 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main9);
+
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
+        });
+
+        ImageView homePageNavXML9 = findViewById(R.id.HomePageNavXML9);
+        homePageNavXML9.setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity9.this, MainActivity4.class);
+            startActivity(intent);
+        });
+
+        ImageView addWorkoutXML9 = findViewById(R.id.AddWorkoutXML9);
+        addWorkoutXML9.setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity9.this, MainActivity10.class);
+            startActivity(intent);
         });
     }
 }
