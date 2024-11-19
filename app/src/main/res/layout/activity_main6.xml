@@ -121,11 +121,13 @@
         />
 
     <ImageView
+        android:id="@+id/GoalUpdateTab"
         android:layout_width="121.5dp"
         android:layout_height="124dp"
         android:contentDescription="Goals Page Icon"
         android:src="@drawable/goals"
         app:layout_constraintBottom_toBottomOf="parent"
+        android:clickable="true"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.981"
         app:layout_constraintStart_toStartOf="parent"
