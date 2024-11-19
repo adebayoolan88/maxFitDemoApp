@@ -57,15 +57,15 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="818dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="861dp" />
 
     <ImageView
         android:id="@+id/imageView3"
         android:layout_width="121.5dp"
         android:layout_height="124dp"
-        android:layout_marginStart="216dp"
-        android:layout_marginTop="512dp"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="540dp"
         android:contentDescription="Goals Page Icon"
         android:src="@drawable/goals"
         app:layout_constraintStart_toEndOf="@id/PrevEx1"
@@ -84,10 +84,11 @@
         app:layout_constraintVertical_bias="1.0" />
 
     <ImageView
-        android:id="@+id/addWorkoutIcon"
+        android:id="@+id/addWorkoutPageNav"
         android:layout_width="121.5dp"
         android:layout_height="124dp"
         android:layout_marginStart="108dp"
+        android:clickable="true"
         android:contentDescription="Add Workout Page Icon"
         android:src="@drawable/addicon"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -257,11 +258,12 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/HomePageNav"
         android:layout_width="80dp"
         android:layout_height="80dp"
-        android:layout_marginStart="204dp"
-        android:layout_marginTop="728dp"
+        android:clickable="true"
+        android:layout_marginStart="228dp"
+        android:layout_marginTop="756dp"
         android:src="@drawable/homeicon"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
