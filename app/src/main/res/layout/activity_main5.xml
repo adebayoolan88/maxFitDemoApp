@@ -34,8 +34,8 @@
         android:id="@+id/CurrentBench"
         android:layout_width="138dp"
         android:layout_height="63dp"
-        android:layout_marginStart="172dp"
-        android:layout_marginTop="220dp"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="196dp"
         android:background="@color/black"
         android:hint="Enter your current bench max"
         android:inputType="text"
@@ -43,14 +43,14 @@
         android:textColor="@color/textColor"
         android:textSize="16sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-/>
+        app:layout_constraintTop_toTopOf="parent" />
+
     <EditText
         android:id="@+id/CurrentSquat"
         android:layout_width="138dp"
         android:layout_height="63dp"
-        android:layout_marginStart="164dp"
-        android:layout_marginTop="436dp"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="348dp"
         android:background="@color/black"
         android:hint="Enter your age"
         android:inputType="text"
@@ -59,14 +59,14 @@
         android:textSize="16sp"
         app:layout_constraintStart_toStartOf="parent"
 
-        app:layout_constraintTop_toTopOf="parent"
-/>
+        app:layout_constraintTop_toTopOf="parent" />
+
     <EditText
         android:id="@+id/CurrentDeadlift"
         android:layout_width="138dp"
         android:layout_height="63dp"
-        android:layout_marginStart="160dp"
-        android:layout_marginTop="328dp"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="272dp"
         android:background="@color/black"
         android:hint="Enter your height"
         android:inputType="text"
@@ -75,14 +75,14 @@
         android:textSize="16sp"
         app:layout_constraintStart_toStartOf="parent"
 
-        app:layout_constraintTop_toTopOf="parent"
-/>
+        app:layout_constraintTop_toTopOf="parent" />
+
     <EditText
         android:id="@+id/CurrentPullup"
         android:layout_width="138dp"
         android:layout_height="63dp"
-        android:layout_marginStart="160dp"
-        android:layout_marginTop="552dp"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="448dp"
         android:background="@color/black"
         android:hint="Enter your weight"
         android:inputType="text"
@@ -90,14 +90,14 @@
         android:textColor="@color/textColor"
         android:textSize="16sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-/>
+        app:layout_constraintTop_toTopOf="parent" />
+
     <EditText
         android:id="@+id/CurrentCardio"
         android:layout_width="138dp"
         android:layout_height="63dp"
-        android:layout_marginStart="164dp"
-        android:layout_marginTop="660dp"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="520dp"
         android:background="@color/black"
         android:hint="Enter your gender"
         android:inputType="text"
@@ -106,56 +106,40 @@
         android:textSize="16sp"
         app:layout_constraintStart_toStartOf="parent"
 
-        app:layout_constraintTop_toTopOf="parent"
-/>
+        app:layout_constraintTop_toTopOf="parent" />
 
-    <EditText
-        android:id="@+id/GoalCardio"
-        android:layout_width="138dp"
-        android:layout_height="63dp"
-        android:layout_marginStart="332dp"
-        android:layout_marginTop="660dp"
-        android:background="@color/black"
-        android:hint="Enter your goal cardio"
-        android:inputType="text"
-        android:padding="16dp"
-        android:textColor="@color/textColor"
-        android:textSize="16sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-/>
     <TextView
         android:id="@+id/BenchLabel"
-        android:layout_width="143dp"
-        android:layout_height="71dp"
+        android:layout_width="113dp"
+        android:layout_height="47dp"
         android:layout_marginStart="4dp"
-        android:layout_marginTop="220dp"
+        android:layout_marginTop="196dp"
         android:text="Bench"
         android:textAlignment="center"
         android:textColor="@color/textColor"
         android:textSize="38dp"
         app:layout_constraintStart_toStartOf="parent"
 
-        app:layout_constraintTop_toTopOf="parent"
-/>
+        app:layout_constraintTop_toTopOf="parent" />
+
     <TextView
         android:id="@+id/SquatLabel"
-        android:layout_width="143dp"
-        android:layout_height="71dp"
+        android:layout_width="116dp"
+        android:layout_height="48dp"
         android:layout_marginStart="4dp"
-        android:layout_marginTop="332dp"
+        android:layout_marginTop="272dp"
         android:text="Squat"
         android:textAlignment="center"
         android:textColor="@color/textColor"
         android:textSize="38dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-/>
+        app:layout_constraintTop_toTopOf="parent" />
+
     <TextView
         android:id="@+id/DeadliftLabel"
         android:layout_width="143dp"
         android:layout_height="71dp"
-        android:layout_marginTop="436dp"
+        android:layout_marginTop="356dp"
         android:text="Deadlift"
         android:textAlignment="center"
         android:textColor="@color/textColor"
@@ -163,12 +147,13 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
 
-/>
+        />
+
     <TextView
         android:id="@+id/PullupsLabel"
         android:layout_width="143dp"
         android:layout_height="71dp"
-        android:layout_marginTop="552dp"
+        android:layout_marginTop="448dp"
         android:text="Pull-ups"
         android:textAlignment="center"
         android:textColor="@color/textColor"
@@ -176,74 +161,28 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
 
-/>
+        />
 
     <TextView
         android:id="@+id/GenderLabel"
         android:layout_width="143dp"
         android:layout_height="71dp"
         android:layout_marginStart="4dp"
-        android:layout_marginTop="660dp"
+        android:layout_marginTop="532dp"
         android:text="Gender"
         android:textAlignment="center"
         android:textColor="@color/textColor"
         android:textSize="38dp"
         app:layout_constraintStart_toStartOf="parent"
 
-        app:layout_constraintTop_toTopOf="parent"
-/>
-    <EditText
-        android:id="@+id/GoalBench"
-        android:layout_width="138dp"
-        android:layout_height="63dp"
-        android:layout_marginStart="332dp"
-        android:layout_marginTop="220dp"
-        android:background="@color/black"
-        android:hint="Enter your goal bench max"
-        android:inputType="text"
-        android:padding="16dp"
-        android:textColor="@color/textColor"
-        android:textSize="16sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-/>
-    <EditText
-        android:id="@+id/GoalSquat"
-        android:layout_width="138dp"
-        android:layout_height="63dp"
-        android:layout_marginStart="332dp"
-        android:layout_marginTop="328dp"
-        android:background="@color/black"
-        android:hint="Enter your goal squat max"
-        android:inputType="text"
-        android:padding="16dp"
-        android:textColor="@color/textColor"
-        android:textSize="16sp"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-        app:layout_constraintTop_toTopOf="parent"
-/>
-    <EditText
-        android:id="@+id/GoalDeadlift"
-        android:layout_width="138dp"
-        android:layout_height="63dp"
-        android:layout_marginStart="332dp"
-        android:layout_marginTop="436dp"
-        android:background="@color/black"
-        android:hint="Enter your goal deadlift max"
-        android:inputType="text"
-        android:padding="16dp"
-        android:textColor="@color/textColor"
-        android:textSize="16sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-/>
     <EditText
         android:id="@+id/GoalPullUp"
         android:layout_width="138dp"
         android:layout_height="63dp"
-        android:layout_marginStart="332dp"
-        android:layout_marginTop="552dp"
+        android:layout_marginStart="264dp"
+        android:layout_marginTop="436dp"
         android:background="@color/black"
         android:hint="Enter your goal pull-ups"
         android:inputType="text"
@@ -252,35 +191,24 @@
         android:textSize="16sp"
         app:layout_constraintStart_toStartOf="parent"
 
-        app:layout_constraintTop_toTopOf="parent"
-/>
+        app:layout_constraintTop_toTopOf="parent" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="180dp"
-        android:layout_marginTop="168dp"
-        android:text="New Max"
-        android:textColor="@color/textColor"
-        android:textSize="29dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-/>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="368dp"
-        android:layout_marginTop="168dp"
+        android:layout_marginStart="288dp"
+        android:layout_marginTop="152dp"
         android:text="% (+/-)"
         android:textColor="@color/textColor"
         android:textSize="29dp"
-       app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
 
-        app:layout_constraintTop_toTopOf="parent"
-/>
+        app:layout_constraintTop_toTopOf="parent" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="752dp"
+        android:layout_marginTop="684dp"
         android:text="Congratulations *User*,
                                                       You've completed a training cycle,
                                      here is how you did"
@@ -291,59 +219,133 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
 
-/>
+        />
+
+    <EditText
+        android:id="@+id/GoalDeadlift"
+        android:layout_width="138dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="264dp"
+        android:layout_marginTop="348dp"
+        android:background="@color/black"
+        android:hint="Enter your goal deadlift max"
+        android:inputType="text"
+        android:padding="16dp"
+        android:textColor="@color/textColor"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/GoalCardio"
+        android:layout_width="138dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="264dp"
+        android:layout_marginTop="520dp"
+        android:background="@color/black"
+        android:hint="Enter your goal cardio"
+        android:inputType="text"
+        android:padding="16dp"
+        android:textColor="@color/textColor"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/GoalBench"
+        android:layout_width="138dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="264dp"
+        android:layout_marginTop="200dp"
+        android:background="@color/black"
+        android:hint="Enter your goal bench max"
+        android:inputType="text"
+        android:padding="16dp"
+        android:textColor="@color/textColor"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/GoalSquat"
+        android:layout_width="138dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="264dp"
+        android:layout_marginTop="272dp"
+        android:background="@color/black"
+        android:hint="Enter your goal squat max"
+        android:inputType="text"
+        android:padding="16dp"
+        android:textColor="@color/textColor"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toTopOf="parent" />
+
     <TextView
-        android:layout_width="486dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="144dp"
+        android:layout_marginTop="148dp"
+        android:text="New Max"
+        android:textColor="@color/textColor"
+        android:textSize="29dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="400dp"
         android:layout_height="124dp"
-        android:layout_marginTop="848dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="796dp"
         android:background="@color/white"
         android:text=""
         android:textColor="@color/white"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-/>
+        app:layout_constraintTop_toTopOf="parent" />
+
     <ImageView
-        android:layout_width="121.5dp"
-        android:layout_height="124dp"
-        android:layout_marginStart="360dp"
-        android:layout_marginTop="848dp"
+        android:layout_width="107dp"
+        android:layout_height="111dp"
+        android:layout_marginStart="304dp"
+        android:layout_marginTop="812dp"
         android:contentDescription="Goals Page Icon"
         android:src="@drawable/goals"
         app:layout_constraintStart_toStartOf="parent"
 
 
-        app:layout_constraintTop_toTopOf="parent"
-/>
+        app:layout_constraintTop_toTopOf="parent" />
+
     <ImageView
         android:id="@+id/RecentWorkoutPage"
-        android:layout_width="121.5dp"
-        android:layout_height="124dp"
+        android:layout_width="88dp"
+        android:layout_height="96dp"
         android:layout_marginStart="116dp"
-        android:layout_marginTop="848dp"
+        android:layout_marginTop="812dp"
+        android:clickable="true"
         android:contentDescription="Recent Workout Page Icon"
         android:src="@drawable/recenticon"
         app:layout_constraintStart_toStartOf="parent"
-        android:clickable="true"
-        app:layout_constraintTop_toTopOf="parent"
-/>
+        app:layout_constraintTop_toTopOf="parent" />
+
     <ImageView
-        android:layout_width="121.5dp"
-        android:layout_height="124dp"
-        android:layout_marginStart="236dp"
-        android:layout_marginTop="848dp"
+        android:layout_width="96dp"
+        android:layout_height="111dp"
+        android:layout_marginStart="204dp"
+        android:layout_marginTop="796dp"
         android:contentDescription="Add Workout Page Icon"
         android:src="@drawable/addicon"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-/>
+        app:layout_constraintTop_toTopOf="parent" />
+
     <ImageView
-        android:layout_width="121.5dp"
-        android:layout_height="124dp"
-        android:layout_marginTop="856dp"
+        android:layout_width="104dp"
+        android:layout_height="96dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="812dp"
         android:contentDescription="Progress Page Icon"
         android:src="@drawable/progresschart"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-/>
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

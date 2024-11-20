@@ -45,31 +45,31 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+
     <ImageView
         android:id="@+id/currentWorkoutImage"
         android:layout_width="80dp"
         android:layout_height="80dp"
-        android:layout_marginStart="48dp"
+        android:layout_marginStart="32dp"
         android:layout_marginTop="288dp"
-        android:contentDescription="CurrentWorkout"
         android:clickable="true"
+        android:contentDescription="CurrentWorkout"
         android:src="@drawable/calendar"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="312dp"
+        android:layout_marginTop="308dp"
         android:text="Today's Workout"
         android:textAlignment="center"
         android:textColor="@color/textColor"
         android:textSize="28dp"
+        app:layout_constraintHorizontal_bias="0.563"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
 
     <TextView
         android:layout_width="wrap_content"
@@ -101,51 +101,54 @@
 
 
     <ImageView
-        android:layout_width="121.5dp"
-        android:layout_height="124dp"
+        android:id="@+id/goalsIcon"
+        android:layout_width="95dp"
+        android:layout_height="100dp"
+        android:clickable="true"
         android:contentDescription="Goals Page Icon"
         android:src="@drawable/goals"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.949"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:clickable="true"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.996" />
 
     <ImageView
-        android:layout_width="121.5dp"
-        android:layout_height="124dp"
-        android:layout_marginStart="128dp"
+        android:id="@+id/recentWorkoutIcon"
+        android:layout_width="86dp"
+        android:layout_height="96dp"
+        android:layout_marginStart="104dp"
+        android:clickable="true"
         android:contentDescription="Recent Workout Page Icon"
         android:src="@drawable/recenticon"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:clickable="true"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.996" />
 
     <ImageView
-        android:layout_width="121.5dp"
-        android:layout_height="124dp"
-        android:layout_marginStart="248dp"
+        android:id="@+id/addWorkoutIcon"
+        android:layout_width="95dp"
+        android:layout_height="94dp"
+        android:layout_marginStart="196dp"
+        android:clickable="true"
         android:contentDescription="Add Workout Page Icon"
         android:src="@drawable/addicon"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:clickable="true"
         app:layout_constraintVertical_bias="1.0" />
 
     <ImageView
         android:id="@+id/NavigatetoProgressPage"
-        android:layout_width="121.5dp"
-        android:layout_height="124dp"
+        android:layout_width="91dp"
+        android:layout_height="99dp"
         android:layout_marginStart="4dp"
+        android:clickable="true"
         android:contentDescription="Progress Page Icon"
         android:src="@drawable/progresschart"
         app:layout_constraintBottom_toBottomOf="parent"
-        android:clickable="true"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0" />

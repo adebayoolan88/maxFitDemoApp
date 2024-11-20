@@ -73,21 +73,21 @@
 
     <ImageView
         android:id="@+id/recentWorkoutIcon"
-        android:layout_width="121.5dp"
-        android:layout_height="124dp"
-        android:layout_marginStart="12dp"
+        android:layout_width="81dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="16dp"
         android:contentDescription="Recent Workout Page Icon"
         android:src="@drawable/recenticon"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.992" />
 
     <ImageView
         android:id="@+id/addWorkoutPageNav"
-        android:layout_width="121.5dp"
-        android:layout_height="124dp"
-        android:layout_marginStart="108dp"
+        android:layout_width="74dp"
+        android:layout_height="76dp"
+        android:layout_marginStart="220dp"
         android:clickable="true"
         android:contentDescription="Add Workout Page Icon"
         android:src="@drawable/addicon"
@@ -98,15 +98,15 @@
 
     <ImageView
         android:id="@+id/progressPageIcon"
-        android:layout_width="121.5dp"
-        android:layout_height="124dp"
+        android:layout_width="80dp"
+        android:layout_height="88dp"
         android:contentDescription="Progress Page Icon"
         android:src="@drawable/progresschart"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
-        tools:layout_editor_absoluteX="120dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="124dp" />
 
     <EditText
         android:id="@+id/PrevEx1Display"
@@ -151,24 +151,24 @@
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.913"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.522" />
 
     <EditText
         android:layout_width="288dp"
         android:layout_height="62dp"
-        android:layout_marginStart="164dp"
-        android:layout_marginTop="544dp"
+        android:layout_marginStart="156dp"
+        android:layout_marginTop="536dp"
         android:background="@color/black"
+        android:hint="previous workout"
         android:inputType="text"
         android:padding="16dp"
-        android:hint="previous workout"
         android:textColor="@color/textColor"
         android:textSize="16sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-/>
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/PrevCardioDisplay"
@@ -216,8 +216,8 @@
 
     <TextView
         android:id="@+id/PrevEx3"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_width="145dp"
+        android:layout_height="56dp"
         android:layout_marginStart="7dp"
         android:layout_marginTop="44dp"
         android:layout_marginEnd="15dp"
@@ -228,8 +228,10 @@
         android:textSize="30dp"
         app:layout_constraintBottom_toTopOf="@+id/PrevEx4"
         app:layout_constraintEnd_toStartOf="@+id/PrevEx3Display"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/PrevEx2" />
+        app:layout_constraintTop_toBottomOf="@+id/PrevEx2"
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/PrevEx4"
@@ -261,9 +263,9 @@
         android:id="@+id/HomePageNav"
         android:layout_width="80dp"
         android:layout_height="80dp"
+        android:layout_marginStart="212dp"
+        android:layout_marginTop="764dp"
         android:clickable="true"
-        android:layout_marginStart="228dp"
-        android:layout_marginTop="756dp"
         android:src="@drawable/homeicon"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
