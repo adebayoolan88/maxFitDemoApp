@@ -163,7 +163,7 @@
         android:layout_height="wrap_content"
         android:text="Update Your Goals"
         android:textColor="@color/textColor"
-        android:textSize="29dp"
+        android:textSize="29sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginStart="120dp"
