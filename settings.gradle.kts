@@ -21,3 +21,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "maxFitDemoApp"
 include(":app")
+ 
