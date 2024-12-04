@@ -4,12 +4,12 @@ plugins {
 
 android {
     namespace = "com.example.maxfitdemoapp"
-    compileSdk = 35
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.example.maxfitdemoapp"
-        minSdk = 26
-        targetSdk = 35
+        minSdk = 28
+        targetSdk = 34
         versionCode = 1
         versionName = "1.0"
 
