@@ -2,13 +2,16 @@ package com.example.maxfitdemoapp;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.TextView; // Import TextView
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
+
+// Import your Person class
+import com.example.maxfitdemoapp.model.Person;
 
 public class MainActivity4 extends AppCompatActivity {
 
@@ -23,14 +26,25 @@ public class MainActivity4 extends AppCompatActivity {
             return insets;
         });
 
-        // Navigate to Progress Page
+        Person person = Person.loadPerson(this);
+
+        TextView greetingText = findViewById(R.id.greetingText);
+
+        if (person != null) {
+            String userName = person.getName();
+
+            String greeting = "Hello, " + userName + ", Let's get 1% better today";
+            greetingText.setText(greeting);
+        } else {
+            greetingText.setText("Hello, User, Let's get 1% better today");
+        }
+
         ImageView navigatetoProgressPage = findViewById(R.id.NavigatetoProgressPage);
         navigatetoProgressPage.setOnClickListener(v -> {
             Intent intent = new Intent(MainActivity4.this, MainActivity5.class);
             startActivity(intent);
         });
 
-        // Navigate to Recent Workout Page
         ImageView navigateToRecentWorkoutPage = findViewById(R.id.recentWorkoutIcon);
         navigateToRecentWorkoutPage.setOnClickListener(v -> {
             Intent intent = new Intent(MainActivity4.this, MainActivity6.class);
@@ -52,3 +66,4 @@ public class MainActivity4 extends AppCompatActivity {
         });
     }
 }
+

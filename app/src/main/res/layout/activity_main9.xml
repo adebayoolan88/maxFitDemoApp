@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/background_color"
-    tools:context=".MainActivity9">
+    android:background="@color/background_color">
 
     <ImageView
+        android:id="@+id/imageViewLogo"
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:layout_marginStart="16dp"
@@ -19,119 +19,153 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
+        android:id="@+id/imageViewProfile"
         android:layout_width="150dp"
         android:layout_height="150dp"
-        android:contentDescription="App Logo"
+        android:layout_marginEnd="16dp"
+        android:contentDescription="User Profile Image"
         android:src="@drawable/userprofile"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        android:layout_marginTop="0dp"
-        android:layout_marginStart="333dp"/>
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:layout_width="wrap_content"
+        android:id="@+id/generateWorkoutQuestion"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="What work out would you like to do today?"
+        android:text="Generate new workout?"
         android:textAlignment="center"
         android:textColor="@color/textColor"
-        android:textSize="28dp"
-        app:layout_constraintTop_toTopOf="parent"
+        android:textSize="28sp"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewLogo"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="198dp"/>
+        android:layout_marginTop="30dp" />
 
-    <TextView
-        android:layout_width="486dp"
-        android:layout_height="124dp"
-        android:layout_marginTop="804dp"
-        android:background="@color/white"
-        android:text=""
-        android:textColor="@color/white"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.506"
+    <Button
+        android:id="@+id/generateWorkoutButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Generate Workout"
+        android:textSize="18sp"
+        android:textColor="@color/textColor"
+        android:background="@color/black"
+        android:padding="16dp"
+        android:layout_marginTop="50dp"
+        app:layout_constraintTop_toBottomOf="@id/generateWorkoutQuestion"
+        app:layout_constraintBottom_toTopOf="@id/navigationBar"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent" />
 
-    <ImageView
-        android:layout_width="87dp"
-        android:layout_height="87dp"
-        android:layout_marginStart="308dp"
-        android:layout_marginTop="828dp"
-        android:contentDescription="Goals Page Icon"
-        android:src="@drawable/goals"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <ImageView
-        android:layout_width="100dp"
-        android:layout_height="95dp"
-        android:layout_marginStart="100dp"
-        android:layout_marginTop="820dp"
-        android:contentDescription="Recent Workout Page Icon"
-        android:src="@drawable/recenticon"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <ImageView
-        android:id="@+id/AddWorkoutXML9"
-        android:layout_width="95dp"
-        android:layout_height="90dp"
-        android:layout_marginStart="200dp"
-        android:layout_marginTop="820dp"
-        android:clickable="true"
-        android:contentDescription="Add Workout Page Icon"
-        android:src="@drawable/addicon"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <ImageView
-        android:layout_width="95dp"
-        android:layout_height="94dp"
-        android:layout_marginStart="-2dp"
-        android:layout_marginTop="824dp"
-        android:contentDescription="Progress Page Icon"
-        android:src="@drawable/progresschart"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <ImageView
-        android:id="@+id/HomePageNavXML9"
-        android:layout_width="80dp"
+    <LinearLayout
+        android:id="@+id/navigationBar"
+        android:layout_width="0dp"
         android:layout_height="80dp"
-        android:layout_marginStart="428dp"
-        android:layout_marginTop="736dp"
-        android:clickable="true"
-        android:src="@drawable/homeicon"
+        android:orientation="horizontal"
+        android:background="@color/white"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        android:contentDescription="Home Page Navigation"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent">
 
-    <TextView
-        android:layout_width="259dp"
-        android:layout_height="130dp"
-        android:layout_marginTop="309dp"
-        android:background="@color/black"
-        android:paddingVertical="35dp"
-        android:text="Upper Body"
-        android:textColor="@color/textColor"
-        android:textSize="48sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        <LinearLayout
+            android:id="@+id/progressButton"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
 
-    <TextView
-        android:layout_width="265dp"
-        android:layout_height="124dp"
-        android:layout_marginTop="464dp"
-        android:background="@color/black"
-        android:paddingVertical="35dp"
-        android:text="Lower Body"
-        android:textColor="@color/textColor"
-        android:textSize="48sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.465"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+            <ImageView
+                android:id="@+id/progressIcon"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:contentDescription="Progress Page Icon"
+                android:src="@drawable/progresschart"/>
 
+            <TextView
+                android:id="@+id/progressLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Progress"
+                android:textColor="@color/textColor"
+                android:textSize="14sp"
+                android:textAlignment="center"/>
+        </LinearLayout>
 
+        <LinearLayout
+            android:id="@+id/recentWorkoutButton"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/recentWorkoutIcon"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:contentDescription="Recent Workout Page Icon"
+                android:src="@drawable/recenticon"/>
+
+            <TextView
+                android:id="@+id/recentWorkoutLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Recent"
+                android:textColor="@color/textColor"
+                android:textSize="14sp"
+                android:textAlignment="center"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/addWorkoutButton"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/addWorkoutIcon"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:contentDescription="Add Workout Page Icon"
+                android:src="@drawable/addicon"/>
+
+            <TextView
+                android:id="@+id/addWorkoutLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add Workout"
+                android:textColor="@color/textColor"
+                android:textSize="14sp"
+                android:textAlignment="center"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/goalsButton"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/goalsIcon"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:contentDescription="Goals Page Icon"
+                android:src="@drawable/goals"/>
+
+            <TextView
+                android:id="@+id/goalsLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Goals"
+                android:textColor="@color/textColor"
+                android:textSize="14sp"
+                android:textAlignment="center"/>
+        </LinearLayout>
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
+

@@ -2,13 +2,15 @@ package com.example.maxfitdemoapp;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
 import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
+
+// Import the Person class
+import com.example.maxfitdemoapp.model.Person;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -25,7 +27,23 @@ public class MainActivity extends AppCompatActivity {
 
         Button startButton = findViewById(R.id.AppStart);
         startButton.setOnClickListener(v -> {
-            Intent intent = new Intent(MainActivity.this, MainActivity2.class);
+            boolean personExists = Person.checkPerson(MainActivity.this);
+
+            boolean goalLiftsExists = Person.checkGoalLifts(MainActivity.this);
+
+            Intent intent;
+
+            if (personExists && goalLiftsExists) {
+                // Both files exist, navigate to MainActivity4
+                intent = new Intent(MainActivity.this, MainActivity4.class);
+            } else if (personExists) {
+                // Only person.csv exists, navigate to MainActivity3
+                intent = new Intent(MainActivity.this, MainActivity3.class);
+            } else {
+                // Neither file exists, navigate to MainActivity2
+                intent = new Intent(MainActivity.this, MainActivity2.class);
+            }
+
             startActivity(intent);
         });
     }
