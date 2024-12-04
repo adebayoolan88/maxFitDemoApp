@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        xmlns:tools="http://schemas.android.com/tools"
-        android:id="@+id/main"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@color/background_color"
-        tools:context=".MainActivity2">
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    tools:context=".MainActivity2">
 
     <ImageView
         android:id="@+id/imageViewLogo"
@@ -94,17 +94,17 @@
 
 
     <Button
-    android:id="@+id/UpdateGoalsSumbit"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:padding="36dp"
-    android:text="Update"
-    android:textSize="16sp"
-    android:textColor="@color/textColor"
-    app:layout_constraintTop_toTopOf="parent"
-    app:layout_constraintStart_toStartOf="parent"
-    app:layout_constraintEnd_toEndOf="parent"
-    android:layout_marginTop="762dp" />
+        android:id="@+id/UpdateGoalsSumbit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="664dp"
+        android:padding="36dp"
+        android:text="Update"
+        android:textColor="@color/textColor"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/UpdatedBench"
@@ -159,14 +159,81 @@
         app:layout_constraintTop_toBottomOf="@id/UpdatedSquat" />
 
     <TextView
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="158dp"
         android:text="Update Your Goals"
         android:textColor="@color/textColor"
         android:textSize="29dp"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="500dp"
+        android:layout_height="98dp"
+        android:background="@color/white"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginStart="120dp"
-        android:layout_marginTop="158dp" />
+        app:layout_constraintVertical_bias="1.0"
+        tools:layout_editor_absoluteX="-37dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/GoalUpdateTab"
+        android:layout_width="95dp"
+        android:layout_height="93dp"
+        android:contentDescription="Goals Page Icon"
+        android:src="@drawable/goals"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.981"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageView
+        android:id="@+id/RecentWorkoutTab"
+        android:layout_width="92dp"
+        android:layout_height="91dp"
+        android:contentDescription="Recent Workout Page Icon"
+        android:src="@drawable/recenticon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.31"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageView
+        android:id="@+id/AddWorkoutTab"
+        android:layout_width="90dp"
+        android:layout_height="89dp"
+        android:contentDescription="Add Workout Page Icon"
+        android:src="@drawable/addicon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.657"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageView
+        android:id="@+id/ProgressTab"
+        android:layout_width="110dp"
+        android:layout_height="106dp"
+        android:contentDescription="Progress Page Icon"
+        android:src="@drawable/progresschart"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

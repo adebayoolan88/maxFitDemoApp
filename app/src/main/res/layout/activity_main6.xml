@@ -139,6 +139,7 @@
     <ImageView
         android:layout_width="92dp"
         android:layout_height="91dp"
+        android:id="@+id/RecentWorkoutTab"
         android:contentDescription="Recent Workout Page Icon"
         android:src="@drawable/recenticon"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -149,6 +150,7 @@
         app:layout_constraintVertical_bias="1.0" />
 
     <ImageView
+        android:id="@+id/AddWorkoutTab"
         android:layout_width="90dp"
         android:layout_height="89dp"
         android:contentDescription="Add Workout Page Icon"
@@ -161,6 +163,7 @@
         app:layout_constraintVertical_bias="1.0" />
 
     <ImageView
+        android:id="@+id/ProgressTab"
         android:layout_width="98dp"
         android:layout_height="95dp"
         android:contentDescription="Progress Page Icon"

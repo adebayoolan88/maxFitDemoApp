@@ -148,22 +148,22 @@
 
     <ImageView
         android:id="@+id/goalsIcon"
-        android:layout_width="121.5dp"
-        android:layout_height="124dp"
-        android:layout_marginTop="848dp"
+        android:layout_width="84dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="864dp"
         android:contentDescription="Goals Page Icon"
         android:src="@drawable/goals"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.997"
+        app:layout_constraintHorizontal_bias="0.9"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/recentWorkoutIcon"
-        android:layout_width="121.5dp"
-        android:layout_height="124dp"
-        android:layout_marginStart="240dp"
-        android:layout_marginTop="848dp"
+        android:layout_width="75dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="216dp"
+        android:layout_marginTop="860dp"
         android:contentDescription="Recent Workout Page Icon"
         android:src="@drawable/recenticon"
         app:layout_constraintStart_toStartOf="parent"
@@ -171,10 +171,10 @@
 
     <ImageView
         android:id="@+id/addWorkoutIcon"
-        android:layout_width="121.5dp"
-        android:layout_height="124dp"
+        android:layout_width="86dp"
+        android:layout_height="76dp"
         android:layout_marginStart="116dp"
-        android:layout_marginTop="848dp"
+        android:layout_marginTop="856dp"
         android:contentDescription="Add Workout Page Icon"
         android:src="@drawable/addicon"
         app:layout_constraintStart_toStartOf="parent"
@@ -182,10 +182,10 @@
 
     <ImageView
         android:id="@+id/progressPageIcon"
-        android:layout_width="121.5dp"
-        android:layout_height="124dp"
-        android:layout_marginStart="4dp"
-        android:layout_marginTop="848dp"
+        android:layout_width="73dp"
+        android:layout_height="71dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="864dp"
         android:contentDescription="Progress Page Icon"
         android:src="@drawable/progresschart"
         app:layout_constraintStart_toStartOf="parent"
@@ -275,8 +275,8 @@
         android:id="@+id/yesTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="136dp"
-        android:layout_marginTop="756dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="764dp"
         android:background="@color/black"
         android:clickable="true"
         android:padding="15dp"
@@ -290,16 +290,16 @@
         android:id="@+id/noTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="228dp"
+        android:layout_marginTop="764dp"
         android:background="@color/black"
+        android:clickable="true"
+        android:padding="15dp"
         android:text="No"
         android:textColor="@color/textColor"
-        android:padding="15dp"
         android:textSize="40sp"
-        android:clickable="true"
-        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        android:layout_marginTop="757dp"
-        android:layout_marginStart="282dp"/>
+        app:layout_constraintTop_toTopOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

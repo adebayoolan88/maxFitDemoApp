@@ -312,8 +312,7 @@
         android:contentDescription="Goals Page Icon"
         android:src="@drawable/goals"
         app:layout_constraintStart_toStartOf="parent"
-
-
+        android:id="@+id/goalsIcon"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
@@ -333,6 +332,7 @@
         android:layout_height="111dp"
         android:layout_marginStart="204dp"
         android:layout_marginTop="796dp"
+        android:id="@+id/addWorkoutIcon"
         android:contentDescription="Add Workout Page Icon"
         android:src="@drawable/addicon"
         app:layout_constraintStart_toStartOf="parent"
@@ -342,6 +342,7 @@
         android:layout_width="104dp"
         android:layout_height="96dp"
         android:layout_marginStart="4dp"
+        android:id="@+id/NavigatetoProgressPage"
         android:layout_marginTop="812dp"
         android:contentDescription="Progress Page Icon"
         android:src="@drawable/progresschart"

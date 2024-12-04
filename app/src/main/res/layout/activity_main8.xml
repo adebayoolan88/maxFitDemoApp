@@ -32,19 +32,20 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="192dp"
+        android:layout_marginTop="164dp"
         android:text="Here is your workout for XX-XX-XX"
         android:textAlignment="center"
         android:textColor="@color/textColor"
         android:textSize="28sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
 
     <TextView
         android:id="@+id/textView3"
@@ -55,17 +56,17 @@
         android:text=""
         android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.173"
         app:layout_constraintStart_toStartOf="parent"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="861dp" />
+        tools:layout_editor_absoluteY="776dp" />
 
     <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="121.5dp"
-        android:layout_height="124dp"
-        android:layout_marginStart="200dp"
-        android:layout_marginTop="540dp"
+        android:id="@+id/GoalsPageIcon"
+        android:layout_width="85dp"
+        android:layout_height="83dp"
+        android:layout_marginStart="156dp"
+        android:layout_marginTop="476dp"
         android:contentDescription="Goals Page Icon"
         android:src="@drawable/goals"
         app:layout_constraintStart_toEndOf="@id/PrevEx1"
@@ -75,26 +76,26 @@
         android:id="@+id/recentWorkoutIcon"
         android:layout_width="81dp"
         android:layout_height="70dp"
-        android:layout_marginStart="16dp"
+        android:layout_marginStart="116dp"
         android:contentDescription="Recent Workout Page Icon"
         android:src="@drawable/recenticon"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.992" />
+        app:layout_constraintVertical_bias="0.971" />
 
     <ImageView
         android:id="@+id/addWorkoutPageNav"
         android:layout_width="74dp"
         android:layout_height="76dp"
-        android:layout_marginStart="220dp"
+        android:layout_marginStart="20dp"
         android:clickable="true"
         android:contentDescription="Add Workout Page Icon"
         android:src="@drawable/addicon"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@id/recentWorkoutIcon"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.97" />
 
     <ImageView
         android:id="@+id/progressPageIcon"
@@ -104,9 +105,9 @@
         android:src="@drawable/progresschart"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
+        app:layout_constraintVertical_bias="0.978"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="124dp" />
+        tools:layout_editor_absoluteX="25dp" />
 
     <EditText
         android:id="@+id/PrevEx1Display"
@@ -154,7 +155,7 @@
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.522" />
+        app:layout_constraintVertical_bias="0.525" />
 
     <EditText
         android:layout_width="288dp"
@@ -263,11 +264,12 @@
         android:id="@+id/HomePageNav"
         android:layout_width="80dp"
         android:layout_height="80dp"
-        android:layout_marginStart="212dp"
-        android:layout_marginTop="764dp"
+        android:layout_marginStart="164dp"
+        android:layout_marginTop="40dp"
         android:clickable="true"
         android:src="@drawable/homeicon"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
