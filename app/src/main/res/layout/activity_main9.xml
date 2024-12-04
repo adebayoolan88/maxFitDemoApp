@@ -21,11 +21,12 @@
     <ImageView
         android:layout_width="150dp"
         android:layout_height="150dp"
-        android:layout_marginStart="260dp"
         android:contentDescription="App Logo"
         android:src="@drawable/userprofile"
+        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_marginTop="0dp"
+        android:layout_marginStart="333dp"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -52,7 +53,6 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/goalsPageNavXML9"
         android:layout_width="87dp"
         android:layout_height="87dp"
         android:layout_marginStart="308dp"
@@ -69,10 +69,8 @@
         android:layout_marginTop="820dp"
         android:contentDescription="Recent Workout Page Icon"
         android:src="@drawable/recenticon"
-        android:id="@+id/recentWorkoutPageXML9"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/AddWorkoutXML9"
@@ -87,7 +85,6 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/progressPageNavXML9"
         android:layout_width="95dp"
         android:layout_height="94dp"
         android:layout_marginStart="-2dp"
