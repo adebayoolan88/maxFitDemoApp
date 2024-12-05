@@ -1,16 +1,16 @@
 # MaxFit App
 
-### MaxFit is a comprehensive fitness application designed to help users plan, track, and achieve their workout goals. It offers personalized workout routines, progress tracking, and goal-setting features to enhance the fitness journey.
+### MaxFit is a comprehensive fitness application designed to help users plan, track, and achieve their workout goals. It offers personalized workout routines, progress tracking, and goal-setting features to enhance the fitness journey. In addtion, features such as saving past workout routines in previous dates as well as adding addtional exercies to better enhance the user's personal experience with working out through this app.
 
 
 ### Contributors:
   - Adebayo Olaniyan
   - Isiah Henry Simpson
   - Landin Weaver
-  - Sebastion Miranda
+  - Sebastian Miranda
 
 ### Feautures:
--**Personalized Workouts**: Generate random workouts with exercises from categories like   chest, shoulders, back, arms, abs, and legs.                                            
+-**Personalized Workouts**: Generate random workouts with exercises from categories like chest, shoulders, back, arms, abs, and legs.                                            
 -**Progress Tracking**: Monitor your workout history and visualize improvements over 
   time.                                                                               
 -**Goal Setting**: Define and track lifting goals to stay motivated and focused.
