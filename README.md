@@ -5,7 +5,7 @@
 
 ### Contributors:
   - Adebayo Olaniyan
-  - Isiah Henry Simpson
+  - Isaiah Henry Simpson
   - Landin Weaver
   - Sebastian Miranda
 
