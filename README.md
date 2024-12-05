@@ -1,102 +1,47 @@
-# Documentation for Java Classes and Methods
+# MaxFit App
 
-## Class: Person
+### MaxFit is a comprehensive fitness application designed to help users plan, track, and achieve their workout goals. It offers personalized workout routines, progress tracking, and goal-setting features to enhance the fitness journey.
 
-### Constructor:
-- **Person(String name, int age, double height, double weight, String gender)**
-  - Initializes a new `Person` instance with the specified attributes (name, age, height, weight, gender). Adds predefined goal lifts (`Bench Press`, `Squat`, `Deadlift`, `Pullups`, `Cardio`).
 
-### Methods:
-- **void updateWorkoutHistory(Workout workout)**
-  - Adds a workout to the `workoutHistory` list.
-  - **Usage:** `person.updateWorkoutHistory(workout);`
+### Contributors:
+  - Adebayo Olaniyan
+  - Isiah Henry Simpson
+  - Landin Weaver
+  - Sebastion Miranda
 
-- **void setCurrentWorkout(Workout workout)**
-  - Sets the current workout for the person.
-  - **Usage:** `person.setCurrentWorkout(workout);`
+### Feautures:
+-**Personalized Workouts**: Generate random workouts with exercises from categories like   chest, shoulders, back, arms, abs, and legs.                                            
+-**Progress Tracking**: Monitor your workout history and visualize improvements over 
+  time.                                                                               
+-**Goal Setting**: Define and track lifting goals to stay motivated and focused.
 
-- **Workout getCurrentWorkout()**
-  - Returns the current workout of the person.
-  - **Usage:** `Workout current = person.getCurrentWorkout();`
+### Installation and Running Instructions:
+- **Clone the Repository**
+  - git clone https://github.com//github.com/UTSA-CS-3443/MaxFit
+  
 
-- **List<Workout> getWorkoutHistory()**
-  - Returns the list of all workouts in the person's history.
-  - **Usage:** `List<Workout> history = person.getWorkoutHistory();`
+- **Open in Android Studio**
+  - Launch Android Studio.
+  - Navigate to File > Open and select the cloned repository folder.
 
-- **Workout getWorkoutFromHistory(int index)**
-  - Returns a specific workout from the workout history by index.
-  - Throws `IndexOutOfBoundsException` if the index is invalid.
-  - **Usage:** `Workout specificWorkout = person.getWorkoutFromHistory(1);`
+- **Build the Project**
+  - Allow Android Studio to sync and build the project.
+  - Ensure all dependecies are resolved.`
 
-- **void addGoalLift(GoalLift goalLift)**
-  - Adds a new goal lift to the `goalLifts` list.
-  - **Usage:** `person.addGoalLift(newGoalLift);`
+- **Run the Application**
+  - Connect and Android device or start an emulator.
+  - Click the Run button or press Shift + F10.
 
-- **List<GoalLift> getGoalLifts()**
-  - Returns the list of goal lifts.
-  - **Usage:** `List<GoalLift> goals = person.getGoalLifts();`
+### Requirements
+  - Android Sudio installed on your machine
+  - An Android device or emulator running Android 4.1 or later
+  - Internet access for initial setup and fetching exercise data.
 
-## Class: Workout
+### Known Issues:
+- **Data Persistence**
+  - In certain scenarios, workout history and goal data may not persist after closing the app.
+- **UI Scaling**
+  - On devices with smaller screens, some UI elements might not display correctly.
 
-### Constructor:
-- **Workout(String type)**
-  - Initializes a new `Workout` instance with the specified type.
-  - **Usage:** `Workout workout = new Workout("Strength");`
-
-### Methods:
-- **void loadExercises(Activity activity)**
-  - Loads exercises from a resource file (categorized by chest, shoulders, back, arms, abs, legs).
-  - **Usage:** `workout.loadExercises(activity);`
-
-- **void addExercise(Exercise exercise)**
-  - Adds an exercise to the current workout.
-  - **Usage:** `workout.addExercise(exercise);`
-
-- **ArrayList<Exercise> getExercises()**
-  - Returns the list of current exercises in the workout.
-  - **Usage:** `ArrayList<Exercise> exercises = workout.getExercises();`
-
-## Class: Exercise
-
-### Constructor:
-- **Exercise(String name, int reps, int sets)**
-  - Initializes a new `Exercise` instance with a specified name, reps, and sets.
-  - **Usage:** `Exercise exercise = new Exercise("Push-Up", 15, 3);`
-
-### Methods:
-- **void updateRepsSets(int reps, int sets)**
-  - Updates the number of reps and sets for the exercise.
-  - **Usage:** `exercise.updateRepsSets(12, 4);`
-
-## Class: GoalLift
-
-### Constructor:
-- **GoalLift(String name, double previousMax, double currentMax, double goalMax)**
-  - Initializes a new `GoalLift` instance with specified values.
-  - **Usage:** `GoalLift benchPress = new GoalLift("Bench Press", 100, 120, 150);`
-
-### Methods:
-- **double calculatePercentChange()**
-  - Calculates and returns the percentage change in the maximum lift.
-  - **Usage:** `double change = goalLift.calculatePercentChange();`
-
-- **void updateMax(double newMax)**
-  - Updates the current maximum value of the goal lift.
-  - **Usage:** `goalLift.updateMax(130);`
-
-- **double getPreviousMax()**
-  - Returns the previous maximum value.
-  - **Usage:** `double prevMax = goalLift.getPreviousMax();`
-
-- **double getCurrentMax()**
-  - Returns the current maximum value.
-  - **Usage:** `double currMax = goalLift.getCurrentMax();`
-
-- **double getGoalMax()**
-  - Returns the goal maximum value.
-  - **Usage:** `double goalMax = goalLift.getGoalMax();`
-
-## Notes:
-- The `savePerson` and `loadPerson` methods in the `Person` class are currently commented out. They can be used to save and load the `Person` object using Android's file system.
-- The `generateRandomWorkout` method in the `Workout` class is a private method that randomly selects exercises from each category to create a full workout.
-
+- **Performance**
+  - Loading times may be longer on devices with limited resources.
