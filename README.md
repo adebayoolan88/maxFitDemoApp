@@ -42,6 +42,5 @@
   - In certain scenarios, workout history and goal data may not persist after closing the app.
 - **UI Scaling**
   - On devices with smaller screens, some UI elements might not display correctly.
-
 - **Performance**
   - Loading times may be longer on devices with limited resources.
